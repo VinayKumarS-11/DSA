@@ -14,9 +14,7 @@ class Solution:
             minProd = min(curr, minProd * curr)
 
             res = max(res, maxProd)
-
-        return res 
-            
-nums = [2, 3, -2, 4]
+        return res
+nums = [2,3,-2,4]
 sol = Solution()
 print(sol.maxProduct(nums))    
